@@ -1,0 +1,186 @@
+/* stylesheet.css */
+body {
+	width: 100%;
+	font-family: Times;
+	background-color: #504F15;
+	margin: 0px;
+}
+
+.container {
+	width: 1000px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	background: url('../images/header-bg.jpg') no-repeat;
+	height: 235px;
+}
+
+footer {
+	background-color: #FFD200;
+	text-align: center;
+}
+
+.header-nav-logo {
+	width: 800px;
+	height: 195px;
+	text-align: center;
+}
+
+.header-nav-logo-options {
+	display: inline-block;
+	width: 700px;
+	height: 195px;
+}
+
+.header-nav {
+	width: 800px;
+	height: 40px;
+}
+
+.header-nav-options, .header-nav-options:hover {
+	display: inline-block;
+	background-color: rgba(64, 62, 9, 0.75);
+	line-height: 40px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	width: 195px;
+	height: 40px;
+	text-align: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.header-nav-options:hover {
+	background-color: rgba(64, 62, 9, 0.5);
+	background-image: url('../images/radiant-sun.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.window {
+	background-image: url('../images/window.jpg');
+	background-repeat: no-repeat;
+	height: 455px;
+	text-align: center;
+}
+
+.telephone {
+	display: inline-block;
+	line-height: 50px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 42px;
+	width: 265px;
+	height: 50px;
+	margin-top: 405px;
+	text-shadow: 0px 0px 15px #F6921E;
+}
+
+.body-text {
+	background: #FFFFFF;
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #8EA04C 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #FFFFFF), color-stop(100%, #8EA04C));
+	background: -webkit-linear-gradient(left, #FFFFFF 0%, #8EA04C 100%);
+	background: -o-linear-gradient(top, #FFFFFF 0%, #8EA04C 100%);
+	background: -ms-linear-gradient(top, #FFFFFF 0%, #8EA04C 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#8EA04C');
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#8EA04C');
+	background: linear-gradient(top, #FFFFFF 0%, #8EA04C 100%);
+	font-family: Times;
+	width: 980px;
+	padding: 10px;
+	color: #47461A;
+	text-align: justify;
+	font-size: 25px;
+}
+
+.motto-text {
+	width: 980px;
+	color: #47461A;
+	font-size: 26.6px;
+}
+
+.about-logo, .services-logo, .offers-logo, .contact-logo {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 322px;
+}
+
+.about-logo {
+	background-image: url('../images/sun-about.png');
+}
+
+.services-logo {
+	background-image: url('../images/sun-service.png');
+}
+
+.offers-logo {
+	background-image: url('../images/sun-specials.png');
+}
+
+.contact-logo {
+	background-image: url('../images/sun-contact.png');
+}
+
+.form-box {
+	width: 830px;
+}
+
+.form-row {
+	display: inline-block;
+	width: 830px;
+	margin-bottom: 10px;
+}
+
+.form-label {
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.form-input {
+	display: inline-block;
+	width: 690px;
+	height: 32px;
+	font-size: 24px;
+	border: 1px solid #000000;
+	padding-left: 5px;
+	border-radius: 5px;
+}
+
+.form-textarea {
+	display: inline-block;
+	width: 690px;
+	height: 250px;
+	font-size: 24px;
+	border: 1px solid #000000;
+	padding-left: 5px;
+	border-radius: 5px;
+}
+
+.form-button {
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.footer-nav, .footer-nav-options, .footer-copyright {
+	color: #47461A;
+	font-weight: bold;
+}
+
+.footer-nav-options {
+	text-decoration: none;
+}
