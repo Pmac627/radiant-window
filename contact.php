@@ -3,14 +3,15 @@ $page_title = "Contact";
 $page_canonical = "contact";
 $extra_meta = "<meta name='robots' content='index,nofollow' />
 ";
+$micro_data = ' itemscope itemtype="http://schema.org/Organization"';
 include('header.php'); ?>
 
 		<section class="body-text-centered">
 			<div class="image-container"><img src="images/sun-contact.png" alt="Contact Radiant Window Cleaning Image" /></div>
-			Radiant Window Cleaning<br>
-			1161 Ridge Road<br>
-			Harmony Township, PA 15003<br>
-			Phone (724)407-3004<br><br>
+			<address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="name">Radiant Window Cleaning</span><br>
+			<span  itemprop="streetAddress">1161 Ridge Road<span><br>
+			<span itemprop="addressLocality">Harmony Township</span>, <span itemprop="addressRegion">PA</span> <span itemprop="postalCode">15003</span></address>
+			Phone <span itemprop="telephone">724-407-3004</span><br><br>
 			We service Beaver County, Western Allegheny County and Southwestern Butler County.
 			<h3>Contact Radiant Window Cleaning</h3>
 			Please use this form to contact Radiant Window Cleaning to be contacted about your free estimate!<br>

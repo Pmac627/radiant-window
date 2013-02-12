@@ -3,6 +3,7 @@ $page_title = "Services";
 $page_canonical = "services";
 $extra_meta = "<meta name='robots' content='index,nofollow' />
 ";
+$micro_data = '';
 include('header.php'); ?>
 
 		<section class="body-text-centered">

@@ -4,6 +4,7 @@ $page_canonical = "contact_success";
 $extra_meta = "<meta http-equiv='Refresh' content='5; URL=/' />
 	<meta name='robots' content='noindex,nofollow' />
 ";
+$micro_data = '';
 include('header.php'); ?>
 
 		<section class="body-text-centered">

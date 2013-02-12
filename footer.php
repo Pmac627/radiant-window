@@ -13,7 +13,7 @@
 			<a href="/services" class="footer-nav-options" title="Our Services">Our Services</a> :: 
 			<a href="/offers" class="footer-nav-options" title="Special Offers">Special Offers</a>
 		</nav>
-		<span class="footer-copyright"><em>Radiant Window Cleaning</em> &copy; 2012<!-- <?php echo date('Y'); ?> --> :: <a href='/humans.txt' class="footer-nav-options" title='Credits'>Credits</a></span>
+		<span class="footer-copyright"><em>Radiant Window Cleaning</em> &copy; <?php echo date('Y'); ?> :: <a href='/humans.txt' class="footer-nav-options" title='Credits'>Credits</a></span>
 	</footer>
 	<script type="text/javascript">
 		var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-29803754-3']);_gaq.push(['_setDomainName','radiant-window-cleaning.com']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.radiant-window-cleaning.com/js/ga-min.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();
