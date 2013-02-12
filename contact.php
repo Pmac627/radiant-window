@@ -9,7 +9,7 @@ include('header.php'); ?>
 		<section class="body-text-centered">
 			<div class="image-container"><img src="images/sun-contact.png" alt="Contact Radiant Window Cleaning Image" /></div>
 			<address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="name">Radiant Window Cleaning</span><br>
-			<span  itemprop="streetAddress">1161 Ridge Road<span><br>
+			<span itemprop="streetAddress">1161 Ridge Road</span><br>
 			<span itemprop="addressLocality">Harmony Township</span>, <span itemprop="addressRegion">PA</span> <span itemprop="postalCode">15003</span></address>
 			Phone <span itemprop="telephone">724-407-3004</span><br><br>
 			We service Beaver County, Western Allegheny County and Southwestern Butler County.
