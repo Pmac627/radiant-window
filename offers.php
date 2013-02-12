@@ -1,16 +1,17 @@
 <?php /* offers.php */
-	include('header.php');
-?>
+$page_title = "Special Offers";
+$page_canonical = "offers";
+$extra_meta = "<meta name='robots' content='index,nofollow' />
+";
+include('header.php'); ?>
 
-	<article>
-		<section class="container body-text centered">
-			<span class="container offers-logo"></span>
+		<section class="body-text-centered">
+			<div class="image-container"><img src="images/sun-specials.png" alt="Special Offers From Radiant Window Cleaning Image" /></div>
 			Senior discounts of 10%.<br>
 			Discounts available for package deals of four to eight window cleanings per year. Call for details!<br>
 			Customer loyalty discounts available.<br><br>
 			<em>* discounts and package deals may not be combined</em>
 		</section>
-	</article>
 
 <?php
 	include('footer.php');

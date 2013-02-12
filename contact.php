@@ -1,10 +1,12 @@
 <?php /* contact.php */
-	include('header.php');
-?>
+$page_title = "Contact";
+$page_canonical = "contact";
+$extra_meta = "<meta name='robots' content='index,nofollow' />
+";
+include('header.php'); ?>
 
-	<article>
-		<section class="container body-text centered">
-			<span class="container contact-logo"></span>
+		<section class="body-text-centered">
+			<div class="image-container"><img src="images/sun-contact.png" alt="Contact Radiant Window Cleaning Image" /></div>
 			Radiant Window Cleaning<br>
 			1161 Ridge Road<br>
 			Harmony Township, PA 15003<br>
@@ -13,7 +15,7 @@
 			<h3>Contact Radiant Window Cleaning</h3>
 			Please use this form to contact Radiant Window Cleaning to be contacted about your free estimate!<br>
 			<em>*All fields are required*</em>
-			<form class="container form-box" action="/contact_process" method="post" name="contact">
+			<form class="form-box" action="/contact_process" method="post" name="contact">
 				<span class="form-row">
 					<label class="form-label" for="first_name">First Name:</label>
 					<input class="form-input" name="first_name" type="text" id="first_name" maxlength="20" size="53" />
@@ -56,7 +58,6 @@
 				</span>
 			</form>
 		</section>
-	</article>
 
 <?php
 	include('footer.php');

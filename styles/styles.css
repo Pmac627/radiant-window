@@ -1,0 +1,175 @@
+/* styles.css */
+html {
+	font-size: 16px;
+}
+
+body {
+	width: 100%;
+	font-family: Times;
+	background-color: #504F15;
+	margin: 0;
+	font-size: 62.5%;
+}
+
+.header, .footer, .body {
+	max-width: 1000px;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.header {
+	background: url('../images/header-bg.jpg') no-repeat top center;
+	height: 235px;
+}
+
+.footer {
+	background-color: #FFD200;
+	text-align: center;
+}
+
+.header-nav-logo a {
+	display: block;
+	height: 195px;
+	text-align: center;
+}
+
+.header-nav {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+
+.header-nav-options {
+	display: inline-block;
+	background-color: rgba(64, 62, 9, 0.75);
+	line-height: 40px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.8em;
+	width: 19.5%;
+	height: 40px;
+	text-align: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.header-nav-options:hover, .header-nav-options:focus {
+	background: rgba(64, 62, 9, 0.5) url('../images/radiant-sun.png') no-repeat top left;
+}
+
+.window {
+	position: relative;
+	background: url('../images/window.jpg') no-repeat center center;
+	height: 455px;
+}
+
+.telephone {
+	position: absolute;
+	bottom: 0;
+	left: 38%;
+	line-height: 50px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 4.2em;
+	width: 26.5%;
+	height: 50px;
+	text-shadow: 0px 0px 15px #F6921E;
+}
+
+.body-text, .body-text-centered {
+	background: #FFFFFF;
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #8EA04C 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #FFFFFF), color-stop(100%, #8EA04C));
+	background: -webkit-linear-gradient(left, #FFFFFF 0%, #8EA04C 100%);
+	background: -o-linear-gradient(top, #FFFFFF 0%, #8EA04C 100%);
+	background: -ms-linear-gradient(top, #FFFFFF 0%, #8EA04C 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#8EA04C');
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#8EA04C');
+	background: linear-gradient(top, #FFFFFF 0%, #8EA04C 100%);
+	font-family: Times;
+	width: 98%;
+	padding: 10px;
+	color: #47461A;
+	font-size: 2.5em;
+}
+
+.body-text p, .body-text-centered p {
+	text-indent: 20px;
+}
+
+.body-text {
+	text-align: justify;
+}
+
+.body-text-centered {
+	text-align: center;
+}
+
+.motto-text {
+	width: 98%;
+	color: #47461A;
+	font-size: 2.66em;
+}
+
+.image-container {
+	text-align: center;
+}
+
+.form-box {
+	position: relative;
+	margin: 0 auto;
+	width: 83%;
+}
+
+.form-row {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.form-label {
+	display: inline-block;
+	width: 15.4578313%;
+	text-align: right;
+	vertical-align: top;
+}
+
+.form-input, .form-textarea {
+	display: inline-block;
+	width: 82.1325301%;
+	font-size: 1em;
+	border: 1px solid #000000;
+	padding-left: 5px;
+	border-radius: 5px;
+}
+
+.form-input {
+	height: 32px;
+}
+
+.form-textarea {
+	height: 250px;
+}
+
+.form-button {
+	display: inline-block;
+	width: 15.4578313%;
+	height: 40px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+.form-button:hover, .form-button:focus {
+	background-color: rgba(64, 62, 9, 0.75);
+	color: #FFFFFF;
+}
+
+.footer-nav, .footer-nav-options, .footer-copyright {
+	color: #47461A;
+	font-weight: bold;
+}
+
+.footer-nav-options {
+	text-decoration: none;
+}
